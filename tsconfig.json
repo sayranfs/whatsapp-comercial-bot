@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",             /* Versão de JavaScript emitida */
+    "module": "commonjs",           /* Tipo de módulo emitido */
+    "rootDir": "./src",             /* Diretório raiz dos arquivos TypeScript */
+    "outDir": "./dist",             /* Diretório onde o código JavaScript gerado será salvo */
+    "esModuleInterop": true,        /* Facilita imports de CommonJS */
+    "forceConsistentCasingInFileNames": true, /* Força diferenciação entre maiúsculas e minúsculas nos nomes dos arquivos */
+    "strict": true,                 /* Ativa todas as verificações estritas de type-checking */
+    "skipLibCheck": true            /* Ignora checagem de tipos em arquivos .d.ts */
+  },
+  "include": ["src/**/*"],          /* Inclui todos os arquivos TypeScript dentro do diretório 'src' */
+  "exclude": ["node_modules", "tests", "**/*.spec.ts", "**/*.test.ts", "src/handlers/*"] /* Exclui arquivos e diretórios específicos */
+}
