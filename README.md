@@ -46,8 +46,8 @@ whatsapp-bot/
 │       ├── logger.ts     # Logs
 │       └── googleGenerativeAI.ts # API externa
 │
-├── tokens/           # Tokens e sessões
-├── .env          # Configuração do ambiente
+├── tokens/               # Tokens e sessões
+├── .env                  # Configuração do ambiente
 ├── package.json          # Dependências
 ├── tsconfig.json         # Configuração do TypeScript
 └── README.md             # Documentação
