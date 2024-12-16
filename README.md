@@ -41,10 +41,12 @@ whatsapp-bot/
 │   ├── handlers/         # Manipuladores de mensagens
 │   │   └── messageHandler.ts
 │   │
-│   └── services/         # Serviços auxiliares
-│       ├── cache.ts      # Cache de dados
-│       ├── logger.ts     # Logs
-│       └── googleGenerativeAI.ts # API externa
+│   ├── services/         # Serviços auxiliares
+│   │   ├── cache.ts      # Cache de dados
+│   │   ├── logger.ts     # Logs
+│   │   └── googleGenerativeAI.ts # API externa
+│   │
+│   └── index.ts          # Arquivo principal
 │
 ├── tokens/               # Tokens e sessões
 ├── .env                  # Configuração do ambiente
@@ -59,8 +61,8 @@ whatsapp-bot/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/whatsapp-bot.git
-   cd whatsapp-bot
+   git clone https://github.com/sayranfs/whatsapp-comercial-bot.git
+   cd whatsapp-comercial-bot
    ```
 
 2. Instale as dependências:
